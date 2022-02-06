@@ -4,6 +4,8 @@
 
 ## Description
 
+[express note taker](./assets/images/screen1)
+
 This is a simple note-taking application, powered by Express.js
 
 ## Table of Contents
@@ -19,15 +21,13 @@ This is a simple note-taking application, powered by Express.js
 [github](#github)
 
 
-## License 
-
-
-
 ## Installation
 
 No installation required; simply follow the link provided below.
 
 ## Usage 
+
+[express note taker](./assets/images/screen2)
 
 To begin, hit the "Get Started" button, after which you will be directed to the application's main page. Here, you must enter both a title and description of your task. Once complete, hit the save button in the upper right-hand corner (shown below) to save your task to the task pane on the left. You can delete any task by hitting its trash icon.
 
@@ -35,9 +35,11 @@ To begin, hit the "Get Started" button, after which you will be directed to the 
 
 Feel free to fork or leave suggestions in the Slack channel.
 
-## Testing
+## Deployed Application
 
-N/A 
+You can find the deployed application in the link below:
+
+https://note-taker-rrich-kray.herokuapp.com/
 
 ## Questions
 
