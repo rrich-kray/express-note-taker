@@ -13,10 +13,8 @@ This is a simple note-taking application, powered by Express.js
 [title](#title)
 [description](#description)
 [installation](#installation)
-[licenses](#licenses)
 [usage](#usage)
 [contributing](#contributing)
-[tests](#tests)
 [email](#email)
 [github](#github)
 
