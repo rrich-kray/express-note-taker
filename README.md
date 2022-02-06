@@ -29,7 +29,7 @@ No installation required; simply follow the link provided below.
 
 the "Get Started" button located in the index page will direct users to the application's main page. Here, you must enter both a title and description of your task. Once you begin typing, an icon will appear in the upper right corner of the application that will allow you to save your task into the express database. The task will also be displayed in the panel on the left-hand side of the main page. You can delete any task by hitting its trash icon.
 
-Users will also find a plus icon in the top right corner of the screen, which will 
+Users will also find a plus icon in the top right corner of the screen, which will clear the content of the task entry pane. 
 
 ## Contributing
 
