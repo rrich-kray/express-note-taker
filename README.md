@@ -29,7 +29,7 @@ No installation required; simply follow the link provided below.
 
 ![express note taker](./assets/images/screen2.png)
 
-To begin, hit the "Get Started" button, after which you will be directed to the application's main page. Here, you must enter both a title and description of your task. Once complete, hit the save button in the upper right-hand corner (shown below) to save your task to the task pane on the left. You can delete any task by hitting its trash icon.
+To begin, hit the "Get Started" button, after which you will be directed to the application's main page. Here, you must enter both a title and description of your task. Once you begin typing, an icon will appear in the upper right corner of the application that will allow you to save your task into the express database. The task will also be displayed in the panel on the left-hand side of the main page. You can delete any task by hitting its trash icon.
 
 ## Contributing
 
