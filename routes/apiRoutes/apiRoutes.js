@@ -36,11 +36,8 @@ router.delete('/notes/:id', (req, res) => { // use colon for parameters
         if (err) throw err;
 
         let tasks = JSON.parse(data);
-        console.log("pre-splice", tasks)
         let filteredTaskIndex = tasks.indexOf(tasks.filter(task => task.id === req.params.id))
         tasks.splice(filteredTaskIndex, 1) // slice does not modify the original array. Splice does
-        console.log("post-splice", tasks)
-        // else tasks = tasks.slice(0, filteredTaskIndex - 1) + tasks.slice(filteredTaskIndex + 1)
         fs.writeFile(path.join(__dirname, '../../db/db.json'), JSON.stringify(tasks), (err) => {
             err ? console.log("Error writing information to database file") : console.log('Task successfully removed to file')
             res.send('Note deleted!')
