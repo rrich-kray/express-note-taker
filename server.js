@@ -9,9 +9,6 @@ app.use(express.static('public'))
 const apiRoutes = require('./routes/apiRoutes/apiRoutes')
 const htmlRoutes = require('./routes/htmlRoutes/htmlRoutes')
 
-// app.get('/api/notes', (req, res) => {
-//     res.send("cats")
-// })
 app.use('/api', apiRoutes)
 app.use('/', htmlRoutes) // These have to be in a certain order or else they will not read properly
 

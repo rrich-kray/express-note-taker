@@ -1,52 +1,51 @@
-
-    
 # Express Note Taker
 
 ## Description
 
 ![express note taker](./assets/images/screen1.png)
 
-This is a simple note-taking application, powered by Express.js
+This repository contains the source code for the Express Note Taker project. This project gave me experience constructing an API for a simple JSON database prior to doing so for a larger-scale project.
 
 ## Table of Contents
 
-[title](#title)
-[description](#description)
-[installation](#installation)
-[usage](#usage)
-[contributing](#contributing)
-[email](#email)
-[github](#github)
-
+[Title](#title)  
+[Description](#description)  
+[Installation](#installation)  
+[How It Works](#how-it-works)  
+[Contact](#contact)
 
 ## Installation
 
-No installation required; simply follow the link provided below.
+No installation required. Simply follow the link provided below.
 
-## Usage 
+https://note-taker-express-rrich-kray.herokuapp.com/
 
-![express note taker](./assets/images/screen2.png)
+## How It Works
 
-the "Get Started" button located in the index page will direct users to the application's main page. Here, you must enter both a title and description of your task. Once you begin typing, an icon will appear in the upper right corner of the application that will allow you to save your task into the express database. The task will also be displayed in the panel on the left-hand side of the main page. You can delete any task by hitting its trash icon.
+Express Note Taker consists of an API constructed with Express routes to access, modify and delete data stored within a simple JSON database.
 
-Users will also find a plus icon in the top right corner of the screen, which will clear the content of the task entry pane. 
+The frontend is constructed using HTML, CSS and JavaScript. Users can perform CRUD operations on the database by selecting icons with appropriate event listeners attached. These include an icon located in the upper right-hand corner of the page, as well as trash icons associated with each task.
 
-## Contributing
+## Contact
 
-Feel free to fork or leave suggestions in the Slack channel.
+Email: rrich.kray.93@gmail.com
 
-## Deployed Application
+GitHub: https://github.com/rrich-kray/
 
-You can find the deployed application in the link below:
+## License
 
-https://note-taker-rrich-kray.herokuapp.com/
+Copyright (c) 2022, Ryan Kray
+All rights reserved.
 
-## Questions
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree and reproduced below.
 
-Feel free to shoot me any questions at the email below:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
-rrich.kray@gmail.com
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by Ryan Kray.
+4. Neither the name of this application's developer nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-find my GitHub profile by following the link below:
-
-https://github.com/rrich-kray/
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
