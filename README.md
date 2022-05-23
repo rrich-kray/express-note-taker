@@ -24,7 +24,7 @@ https://note-taker-express-rrich-kray.herokuapp.com/
 
 Express Note Taker consists of an API constructed with Express routes to access, modify and delete data stored within a simple JSON database.
 
-The frontend is constructed using HTML, CSS and JavaScript. Users can perform CRUD operations on the database by selecting icons with appropriate event listeners attached. These include an icon located in the upper right-hand corner of the page, as well as trash icons associated with each task.
+The frontend is constructed using HTML, CSS and JavaScript. Users can perform CRUD operations on the database by selecting icons with appropriate event listeners attached. These include a "plus" icon located in the upper right-hand corner of the page, as well as trash icons associated with each task.
 
 ## Contact
 
