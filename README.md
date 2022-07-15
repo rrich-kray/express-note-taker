@@ -4,7 +4,7 @@
 
 ![express note taker](./assets/images/screen1.png)
 
-This repository contains the source code for the Express Note Taker project. This project gave me experience constructing an API for a simple JSON database prior to doing so for a larger-scale project.
+This repository contains the source code for the Express Note Taker project. This project gave me experience constructing an API for a simple JSON database.
 
 ## Table of Contents
 
